@@ -13,7 +13,7 @@ Name:		bicyclerepair
 Version:	0.9
 %define beta	BETA4
 Release:	0.%{beta}.1
-License:	unknown
+License:	BSD-like
 Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-%{beta}.tar.gz
 # Source0-md5:	635287697aa7f3bb580267e9df203f89
