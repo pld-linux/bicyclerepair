@@ -16,7 +16,7 @@ Release:	0.%{beta}.1
 License:	unknown
 Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-%{beta}.tar.gz
-# Source0-md5:	fbb0bd482a872795c59f897b699f9549
+# Source0-md5:	c8c22c2a8133a72aaf30b3d105fe7499
 URL:		http://bicyclerepair.sourceforge.net/
 BuildRequires:	python-modules >= 2.2.1
 BuildRequires:	rpm-pythonprov
