@@ -10,7 +10,7 @@
 
 %include	/usr/lib/rpm/macros.python
 
-%define beta BETA3
+%define beta BETA4
 
 Summary:	Python Refactoring Browser
 Name:		bicyclerepair
@@ -19,7 +19,7 @@ Release:	0.%{beta}.1
 License:	unknown
 Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-%{beta}.tar.gz
-# Source0-md5:	c8c22c2a8133a72aaf30b3d105fe7499
+# Source0-md5:	635287697aa7f3bb580267e9df203f89
 URL:		http://bicyclerepair.sourceforge.net/
 BuildRequires:	python-modules >= 2.2.1
 BuildRequires:	rpm-pythonprov
