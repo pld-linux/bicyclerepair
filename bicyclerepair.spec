@@ -7,7 +7,6 @@
 # Conditional build:
 %bcond_without tests	# disables testing
 #
-%include	/usr/lib/rpm/macros.python
 Summary:	Python Refactoring Browser
 Name:		bicyclerepair
 Version:	0.9
