@@ -18,7 +18,6 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-%{beta}.tar.gz
 # Source0-md5:	635287697aa7f3bb580267e9df203f89
 URL:		http://bicyclerepair.sourceforge.net/
 BuildRequires:	python-modules >= 2.2.1
-BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
