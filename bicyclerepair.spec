@@ -4,6 +4,9 @@
 # - emacs, idle and vim subpackages
 #
 
+# Conditional build:
+%bcond_without tests	# disables testing
+
 
 %include	/usr/lib/rpm/macros.python
 
@@ -35,6 +38,7 @@ occurrences of a method. Thank You, Bicycle Repair Man!
 
 %build
 python setup.py build
+%{?with_tests:python -O testall.py -v}
 
 %install
 rm -rf $RPM_BUILD_ROOT
