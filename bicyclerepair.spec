@@ -32,12 +32,12 @@ Gasp, as he renames all occurrences of a method. Thank You, Bicycle
 Repair Man!
 
 %description -l pl
-Bicycle Repair Man ("naprawiaj±cy rowery") to przegl±darka
+Bicycle Repair Man ("Mechanik Rowerowy") to przegl±darka
 przebudowuj±ca dla Pythona, pomagaj±ca pythonistom wszêdzie szybowaæ
 ponad morderczymi szczegó³ami przebudowywania swojego kodu. Patrz, jak
 przemienia pomieszany kod na dobrze uporz±dkowane klasy. Oddychaj
 ciê¿ko, kiedy zmienia wszystkie wyst±pienia metody. Dziêkujemy Ci,
-Bicycle Repair Man!
+Mechaniku Rowerowy!
 
 %prep
 %setup -q -n %{name}-%{version}-%{beta}
