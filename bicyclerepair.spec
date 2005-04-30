@@ -8,12 +8,13 @@
 %bcond_without tests	# disables testing
 #
 Summary:	Python Refactoring Browser
+Summary(pl):	Przegl±darka do refaktoryzacji kodu w Pythonie
 Name:		bicyclerepair
 Version:	0.9
 Release:	1
 License:	BSD-like
 Group:		Development/Languages/Python
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/bicyclerepair/%{name}-%{version}.tar.gz
 # Source0-md5:	f825f48384febefacf0717738e909321
 URL:		http://bicyclerepair.sourceforge.net/
 BuildRequires:	python-modules >= 2.2.1
@@ -52,7 +53,7 @@ python setup.py install \
 	--optimize=2 \
 	--root=$RPM_BUILD_ROOT
 
-find $RPM_BUILD_ROOT%{py_scriptdir} -name \*.py -exec rm -f {} \;
+find $RPM_BUILD_ROOT%{py_sitescriptdir} -name \*.py -exec rm -f {} \;
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -61,4 +62,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING ChangeLog NEWS README*
 %doc ide-integration/bike.vim
-%{py_scriptdir}/*
+%{py_sitescriptdir}/*
