@@ -5,7 +5,7 @@
 #
 
 # Conditional build:
-%bcond_without tests	# disables testing
+%bcond_without	tests	# disables testing
 #
 Summary:	Python Refactoring Browser
 Summary(pl):	Przegl±darka do refaktoryzacji kodu w Pythonie
