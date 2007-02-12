@@ -8,7 +8,7 @@
 %bcond_without	tests	# disables testing
 #
 Summary:	Python Refactoring Browser
-Summary(pl):	Przegl±darka do refaktoryzacji kodu w Pythonie
+Summary(pl.UTF-8):   PrzeglÄ…darka do refaktoryzacji kodu w Pythonie
 Name:		bicyclerepair
 Version:	0.9
 Release:	1
@@ -29,14 +29,14 @@ their code. Watch him extract jumbled code into well ordered classes.
 Gasp, as he renames all occurrences of a method. Thank You, Bicycle
 Repair Man!
 
-%description -l pl
-Bicycle Repair Man ("Mechanik Rowerowy") to narzêdzie do refaktoryzacji
-kodu ¼ród³owego napisanego w jêzyku Python, pozwalaj±ce programistom na
-unikniêcie morderczej pracy zwi±zanej z ulepszaniem swojego kodu. 
+%description -l pl.UTF-8
+Bicycle Repair Man ("Mechanik Rowerowy") to narzÄ™dzie do refaktoryzacji
+kodu ÅºrÃ³dÅ‚owego napisanego w jÄ™zyku Python, pozwalajÄ…ce programistom na
+unikniÄ™cie morderczej pracy zwiÄ…zanej z ulepszaniem swojego kodu. 
 
-Patrz, jak brzydki kod przekszta³ca siê w piêkne klasy. Tchu zabraknie Ci
-ze zdziwienia, gdy zacznie zmieniaæ wszystkie wyst±pienia metody.
-Dziêkujemy Ci, Mechaniku Rowerowy!
+Patrz, jak brzydki kod przeksztaÅ‚ca siÄ™ w piÄ™kne klasy. Tchu zabraknie Ci
+ze zdziwienia, gdy zacznie zmieniaÄ‡ wszystkie wystÄ…pienia metody.
+DziÄ™kujemy Ci, Mechaniku Rowerowy!
 
 %prep
 %setup -q
