@@ -8,7 +8,7 @@
 %bcond_without	tests	# disables testing
 #
 Summary:	Python Refactoring Browser
-Summary(pl.UTF-8):   Przeglądarka do refaktoryzacji kodu w Pythonie
+Summary(pl.UTF-8):	Przeglądarka do refaktoryzacji kodu w Pythonie
 Name:		bicyclerepair
 Version:	0.9
 Release:	1
