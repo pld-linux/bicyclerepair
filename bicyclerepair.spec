@@ -42,16 +42,14 @@ Dziękujemy Ci, Mechaniku Rowerowy!
 %setup -q
 
 %build
-python setup.py build
+%py_build
 
 %{?with_tests:python -O testall.py -v}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-python setup.py install \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py_install
 
 find $RPM_BUILD_ROOT%{py_sitescriptdir} -name \*.py -exec rm -f {} \;
 
