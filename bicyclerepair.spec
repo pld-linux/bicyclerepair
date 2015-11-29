@@ -17,6 +17,7 @@ Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/bicyclerepair/%{name}-%{version}.tar.gz
 # Source0-md5:	f825f48384febefacf0717738e909321
 URL:		http://bicyclerepair.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-modules >= 2.2.1
 %pyrequires_eq	python-modules
 BuildArch:	noarch
